@@ -10,7 +10,7 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "heroku-postbuild": "npm run build"
-    } ,
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -30,6 +30,7 @@
     "normalizr": "^3.6.2",
     "passport": "^0.5.2",
     "passport-local": "^1.0.0",
+    "react-scripts": "^5.0.1",
     "serve": "^13.0.2",
     "socket.io": "^4.4.1",
     "winston": "^3.7.2",
