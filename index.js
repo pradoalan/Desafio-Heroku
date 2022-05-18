@@ -34,7 +34,7 @@ const args = yargs
   })
   .argv;
 
-const PORT = args.PORT;
+const PORT = process.env.PORT || args.PORT;
 const MODE = args.MODE;
 const CPU_NUMBERS = os.cpus().length;
 
