@@ -1,0 +1,64 @@
+<div class="container mt-3 jumbotron alert-success">
+    <form action="/logout" method="post">
+        <h3 style="display: inline-block; margin: 0;" class="text-green">Bienvenido {{ nombreUsuario }}</h3>
+        <input type="submit" value="Logout" class="text-green btn btn-warning" style="margin-bottom: 1%; float: right;">
+    </form>
+</div>
+<div class="container mt-3 jumbotron">
+    <h3 class="text-primary">Ingrese Producto</h3>
+    <form id="formProducto">
+        <div class="form-group">
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre" class="form-control" required>
+        </div>
+        <div class="form-group">
+            <label for="precio">Precio</label>
+            <input type="number" name="precio" id="precio" step=".01" class="form-control" required>
+        </div>
+        <div class="form-group">
+            <label for="fotoUrl">Foto URL</label>
+            <input type="text" name="fotoUrl" id="fotoUrl" class="form-control" required>
+        </div>
+        <input type="submit" value="Enviar" class="btn btn-success">
+    </form>
+    <br>
+    <h3 class="text-primary">Productos cargados</h3>
+    <div id="divProductos"></div>
+</div>
+<div class="container mt-3 jumbotron">
+    <h3 class="text-primary">Centro de Mensajes</h3>
+    <h4 class="text-secondary" id="textCompresion"></h4>
+    <form id="formMensajes">
+        <div class="form-group row g-2">
+            <input type="text" name="email" id="email" placeholder="Ingresa tu e-mail" class="form-control"
+                style="width: 40%; margin-left: 1.3%;" required>
+        </div>
+        <div class="form-group row g-2">
+            <input type="text" name="nombreAutor" id="nombreAutor" placeholder="Ingresa tu nombre" class="form-control"
+                style="width: 40%; margin-left: 1.3%;" required>
+        </div>
+        <div class="form-group row g-2">
+            <input type="text" name="apellido" id="apellido" placeholder="Ingresa tu apellido" class="form-control"
+                style="width: 40%; margin-left: 1.3%;" required>
+        </div>
+        <div class="form-group row g-2">
+            <input type="number" name="edad" id="edad" placeholder="Ingresa tu edad" class="form-control"
+                style="width: 40%; margin-left: 1.3%;" required>
+        </div>
+        <div class="form-group row g-2">
+            <input type="text" name="alias" id="alias" placeholder="Ingresa tu alias" class="form-control"
+                style="width: 40%; margin-left: 1.3%;" required>
+        </div>
+                <div class="form-group row g-2">
+            <input type="text" name="avatar" id="avatar" placeholder="Ingresa tu avatar" class="form-control"
+                style="width: 40%; margin-left: 1.3%;" required>
+        </div>
+        <div class="form-group row g-2">
+            <input type="text" name="mensaje" id="mensaje" placeholder="Ingresa tu mensaje" class="form-control"
+                style="width: 40%; margin-left: 1.3%;" required>
+            <input type="submit" value="Enviar" class="btn btn-success" style="margin-left: 1%;">
+        </div>
+    </form>
+    <hr>
+    <div id="divMensajes"></div>
+</div>

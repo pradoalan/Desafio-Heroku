@@ -1,0 +1,28 @@
+[
+  {
+    "author": {
+      "id": "alan@gmail.com",
+      "nombre": "Alan",
+      "apellido": "Prado",
+      "edad": "29",
+      "alias": "pradoAlan",
+      "avatar": "asda"
+    },
+    "text": "Hola, como va?",
+    "time": "2022-04-04T22:22:10.823Z",
+    "id": 1
+  },
+  {
+    "author": {
+      "id": "Juan@gmail.com",
+      "nombre": "Juan",
+      "apellido": "Segura",
+      "edad": "31",
+      "alias": "seguraJuan",
+      "avatar": "asd"
+    },
+    "text": "Todo bien, vos?",
+    "time": "2022-04-04T22:23:48.963Z",
+    "id": 2
+  }
+]
