@@ -19,6 +19,6 @@ module.exports = {
         }
     },
     mongodb: {
-        connectTo: (database) => `mongodb+srv://alanprado:alanprado@cluster0.avtxj.mongodb.net/${database}?retryWrites=true&w=majority`, 
+        connectTo: (database) => `mongodb+srv://alanprado:${env.DB_PASSWORD}@cluster0.avtxj.mongodb.net/${database}?retryWrites=true&w=majority`, 
     }
 }
